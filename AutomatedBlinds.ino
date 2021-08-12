@@ -28,7 +28,7 @@ void loop() {
       case 16753245:
       digitalWrite(LED, HIGH);
       
-      // Set motor direction clockwise
+      // Sets motor direction clockwise
       digitalWrite(dirPin,HIGH); 
   
       // Spin motor one rotation slowly
@@ -44,7 +44,7 @@ void loop() {
       case 16736925:
       digitalWrite(LED, LOW);
       
-      // Set motor direction counterclockwise
+      // Sets motor direction counterclockwise
       digitalWrite(dirPin,LOW);
   
       // Spin motor two rotations quickly
@@ -54,7 +54,7 @@ void loop() {
         digitalWrite(stepPin,LOW);
         delayMicroseconds(1000);
       }
-      break;
+      break;    
     }
     irrecv.resume();
   }
