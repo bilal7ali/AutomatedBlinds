@@ -24,37 +24,70 @@ void loop() {
   if (irrecv.decode(&results)) {
     long int decCode = results.value;
     switch (results.value) {
-      //Twist Blinds Open
+      
+      //Twist blinds fully open
       case 16753245:
       digitalWrite(LED, HIGH);
       
       // Sets motor direction clockwise
-      digitalWrite(dirPin,HIGH); 
+      digitalWrite(dirPin, HIGH); 
   
-      // Spin motor one rotation slowly
-      for(int x = 0; x < STEPS_PER_REV; x++) {
-        digitalWrite(stepPin,HIGH); 
+      // Spin motor 18 rotation
+      for(int x = 0; x < (STEPS_PER_REV * 18); x++) {
+        digitalWrite(stepPin, HIGH); 
         delayMicroseconds(1000); 
-        digitalWrite(stepPin,LOW); 
+        digitalWrite(stepPin, LOW); 
         delayMicroseconds(1000); 
       }
       break;
 
-      //Twist Blinds Closed
+      //Twist blinds fully closed
       case 16736925:
       digitalWrite(LED, LOW);
       
       // Sets motor direction counterclockwise
-      digitalWrite(dirPin,LOW);
+      digitalWrite(dirPin, LOW);
   
-      // Spin motor two rotations quickly
-      for(int x = 0; x < (STEPS_PER_REV * 2); x++) {
+      // Spin motor 18 rotations
+      for(int x = 0; x < (STEPS_PER_REV * 18); x++) {
         digitalWrite(stepPin,HIGH);
-        delayMicroseconds(100);
+        delayMicroseconds(1000);
         digitalWrite(stepPin,LOW);
         delayMicroseconds(1000);
       }
-      break;    
+      break;
+
+      //Twist blinds half closed
+      case 16769565:
+      digitalWrite(LED, LOW);
+
+      //Sets motor direction counterclockwise
+      digitalWrite(dirPin, LOW); 
+
+      // Spin motor 9 rotations
+      for(int x = 0; x < (STEPS_PER_REV * 9); x++) {
+        digitalWrite(stepPin, HIGH);
+        delayMicroseconds(1000);
+        digitalWrite(stepPin, LOW);
+        delayMicroseconds(1000);
+      }
+      break;
+
+      //Twist blinds half open
+      case 16720605:
+      digitalWrite(LED, HIGH);
+
+      //Sets motor direction clockwise
+      digitalWrite(dirPin, HIGH); 
+
+      // Spin motor 9 rotations
+      for(int x = 0; x < (STEPS_PER_REV * 9); x++) {
+        digitalWrite(stepPin, HIGH);
+        delayMicroseconds(1000);
+        digitalWrite(stepPin, LOW);
+        delayMicroseconds(1000);
+      }
+      break;
     }
     irrecv.resume();
   }
