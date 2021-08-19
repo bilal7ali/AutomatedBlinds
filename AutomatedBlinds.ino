@@ -1,21 +1,21 @@
 #include <IRremote.h>
 
 //CONSTANTS
-const int dirPin = 2;  // Direction
-const int stepPin = 3; // Step
+const int dirPin1 = 4; // Direction
+const int stepPin1 = 5; // Step
+const int dirPin2 = 2; // Direction
+const int stepPin2 = 3; // Step
 const int STEPS_PER_REV = 200; // Steps per rotation
 const int irReceiverPin = 7;
 
 IRrecv irrecv(irReceiverPin);
 decode_results results;
 
-//VARIABLES
-int LED = 6;
-
 void setup() {
-  pinMode(LED, OUTPUT);
-  pinMode(stepPin, OUTPUT);
-  pinMode(dirPin, OUTPUT);
+  pinMode(stepPin1, OUTPUT);
+  pinMode(dirPin1, OUTPUT);
+  pinMode(stepPin2, OUTPUT);
+  pinMode(dirPin2, OUTPUT);
   irrecv.enableIRIn();
 }
 
@@ -24,70 +24,66 @@ void loop() {
   if (irrecv.decode(&results)) {
     long int decCode = results.value;
     switch (results.value) {
-      
-      //Twist blinds fully open
-      case 16753245:
-      digitalWrite(LED, HIGH);
-      
-      // Sets motor direction clockwise
-      digitalWrite(dirPin, HIGH); 
-  
-      // Spin motor 18 rotation
-      for(int x = 0; x < (STEPS_PER_REV * 18); x++) {
-        digitalWrite(stepPin, HIGH); 
-        delayMicroseconds(1000); 
-        digitalWrite(stepPin, LOW); 
-        delayMicroseconds(1000); 
-      }
-      break;
 
-      //Twist blinds fully closed
-      case 16736925:
-      digitalWrite(LED, LOW);
-      
-      // Sets motor direction counterclockwise
-      digitalWrite(dirPin, LOW);
-  
-      // Spin motor 18 rotations
-      for(int x = 0; x < (STEPS_PER_REV * 18); x++) {
-        digitalWrite(stepPin,HIGH);
-        delayMicroseconds(1000);
-        digitalWrite(stepPin,LOW);
-        delayMicroseconds(1000);
-      }
-      break;
+      // Twist blinds half closed
+      case 16753245: // Button 1
 
-      //Twist blinds half closed
-      case 16769565:
-      digitalWrite(LED, LOW);
+        //Sets motor direction counterclockwise
+        digitalWrite(dirPin1, LOW);
 
-      //Sets motor direction counterclockwise
-      digitalWrite(dirPin, LOW); 
+        // Spin motor 9 rotations
+        for (int x = 0; x < (STEPS_PER_REV * 9); x++) {
+          digitalWrite(stepPin1, HIGH);
+          delayMicroseconds(1000);
+          digitalWrite(stepPin1, LOW);
+          delayMicroseconds(1000);
+        }
+        break;
 
-      // Spin motor 9 rotations
-      for(int x = 0; x < (STEPS_PER_REV * 9); x++) {
-        digitalWrite(stepPin, HIGH);
-        delayMicroseconds(1000);
-        digitalWrite(stepPin, LOW);
-        delayMicroseconds(1000);
-      }
-      break;
+      // Twist blinds half open
+      case 16736925: // Button 2
 
-      //Twist blinds half open
-      case 16720605:
-      digitalWrite(LED, HIGH);
+        //Sets motor direction clockwise
+        digitalWrite(dirPin1, HIGH);
 
-      //Sets motor direction clockwise
-      digitalWrite(dirPin, HIGH); 
+        // Spin motor 9 rotations
+        for (int x = 0; x < (STEPS_PER_REV * 9); x++) {
+          digitalWrite(stepPin1, HIGH);
+          delayMicroseconds(1000);
+          digitalWrite(stepPin1, LOW);
+          delayMicroseconds(1000);
+        }
+        break;
 
-      // Spin motor 9 rotations
-      for(int x = 0; x < (STEPS_PER_REV * 9); x++) {
-        digitalWrite(stepPin, HIGH);
-        delayMicroseconds(1000);
-        digitalWrite(stepPin, LOW);
-        delayMicroseconds(1000);
-      }
-      break;
+      // Opens blinds
+      case 16769565: // Button 3
+
+        //Sets motor direction clockwise
+        digitalWrite(dirPin2, HIGH);
+
+        // Spin motor 14 rotations
+        for (int x = 0; x < (STEPS_PER_REV * 9); x++) {
+          digitalWrite(stepPin2, HIGH);
+          delayMicroseconds(1000);
+          digitalWrite(stepPin2, LOW);
+          delayMicroseconds(1000);
+        }
+        break;
+
+      //Closes blinds
+      case 16720605: // Button 4
+
+        //Sets motor direction clockwise
+        digitalWrite(dirPin2, LOW);
+
+        // Spin motor 14 rotations
+        for (int x = 0; x < (STEPS_PER_REV * 9); x++) {
+          digitalWrite(stepPin2, HIGH);
+          delayMicroseconds(1000);
+          digitalWrite(stepPin2, LOW);
+          delayMicroseconds(1000);
+        }
+        break;
     }
     irrecv.resume();
   }
