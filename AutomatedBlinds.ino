@@ -21,7 +21,7 @@ void setup() {
 
 void loop() {
   //Receives IR signal from remote, decodes it and enters the correct case to turn CW or CCW
-  if (irrecv.decode(&results)) {
+  if (irrecv.decode(&results)) { // If the IR receiver receives data
     long int decCode = results.value;
     switch (results.value) {
 
@@ -61,8 +61,8 @@ void loop() {
         //Sets motor direction clockwise
         digitalWrite(dirPin2, HIGH);
 
-        // Spin motor 14 rotations
-        for (int x = 0; x < (STEPS_PER_REV * 9); x++) {
+        // Spin motor 27 rotations
+        for (int x = 0; x < (STEPS_PER_REV * 27); x++) {
           digitalWrite(stepPin2, HIGH);
           delayMicroseconds(1000);
           digitalWrite(stepPin2, LOW);
@@ -76,8 +76,8 @@ void loop() {
         //Sets motor direction clockwise
         digitalWrite(dirPin2, LOW);
 
-        // Spin motor 14 rotations
-        for (int x = 0; x < (STEPS_PER_REV * 9); x++) {
+        // Spin motor 27 rotations
+        for (int x = 0; x < (STEPS_PER_REV * 27); x++) {
           digitalWrite(stepPin2, HIGH);
           delayMicroseconds(1000);
           digitalWrite(stepPin2, LOW);
