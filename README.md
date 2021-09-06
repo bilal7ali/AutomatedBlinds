@@ -17,6 +17,7 @@ This is an Arduino program that motorizes vertical blinds with an infra-red remo
 * [3D printer Pulley Wheel Bearing](https://www.amazon.ca/gp/product/B07V73N4QD/ref=ppx_yo_dt_b_asin_title_o03_s01?ie=UTF8&psc=1) x1
 
 ## 3-D Printed Designs
+### Ball Chain Sprocket
 ![Sprocket](https://user-images.githubusercontent.com/80595485/132253313-d88c8fad-0a29-4269-9fa3-f8ca721d24d1.PNG)
 ![Sprocket Section Analysis](https://user-images.githubusercontent.com/80595485/132253321-c03a0f69-0836-461c-876b-e7c939d27805.PNG)
 ![Sprocket-Printed](https://user-images.githubusercontent.com/80595485/132253433-9b4aae85-c5d3-4836-bd7c-7c485ac6ad71.jpg)
