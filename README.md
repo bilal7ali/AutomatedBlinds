@@ -24,3 +24,18 @@ This is an Arduino program that motorizes vertical blinds with an infra-red remo
 ![Sprocket-Bottom](https://user-images.githubusercontent.com/80595485/132253446-df47f337-b3e4-4aae-945d-0f077c585592.jpg)
 ![Sprocket-Motor](https://user-images.githubusercontent.com/80595485/132253450-ad8d6361-b4c5-4db3-9828-8ccc89b2f6ad.jpg)
 
+### String Component
+
+#### String Gear
+![String Gear](https://user-images.githubusercontent.com/80595485/132254293-e60e4961-352c-4845-8efd-2b2a5df02a04.PNG)
+
+#### Second Gear
+![Second Gear](https://user-images.githubusercontent.com/80595485/132254304-e450304d-160c-4893-be0b-7219df8040d4.PNG)
+
+#### Bracket
+![Bracket](https://user-images.githubusercontent.com/80595485/132254333-f4b2bb7d-fa5f-4e98-8212-88259aad6149.PNG)
+
+#### Print
+![String Component](https://user-images.githubusercontent.com/80595485/132254548-9f85d286-416e-4536-80fa-2e24d314fbea.jpg)
+![String Component-Top](https://user-images.githubusercontent.com/80595485/132254557-666c3356-3ab3-438f-9375-4585c4c9af7c.jpg)
+
