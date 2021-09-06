@@ -61,7 +61,7 @@ void loop() {
         //Sets motor direction clockwise
         digitalWrite(dirPin2, HIGH);
 
-        // Spin motor 27 rotations
+        // Spin motor 13 rotations
         for (int x = 0; x < (STEPS_PER_REV * 13); x++) {
           digitalWrite(stepPin2, HIGH);
           delayMicroseconds(1000);
@@ -76,7 +76,7 @@ void loop() {
         //Sets motor direction clockwise
         digitalWrite(dirPin2, LOW);
 
-        // Spin motor 27 rotations
+        // Spin motor 13 rotations
         for (int x = 0; x < (STEPS_PER_REV * 13); x++) {
           digitalWrite(stepPin2, HIGH);
           delayMicroseconds(1000);
