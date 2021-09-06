@@ -55,14 +55,14 @@ void loop() {
         }
         break;
 
-      // Opens blinds
+      // Opens blinds halfway
       case 16769565: // Button 3
 
         //Sets motor direction clockwise
         digitalWrite(dirPin2, HIGH);
 
         // Spin motor 27 rotations
-        for (int x = 0; x < (STEPS_PER_REV * 27); x++) {
+        for (int x = 0; x < (STEPS_PER_REV * 13); x++) {
           digitalWrite(stepPin2, HIGH);
           delayMicroseconds(1000);
           digitalWrite(stepPin2, LOW);
@@ -70,14 +70,14 @@ void loop() {
         }
         break;
 
-      //Closes blinds
+      //Closes blinds halfway
       case 16720605: // Button 4
 
         //Sets motor direction clockwise
         digitalWrite(dirPin2, LOW);
 
         // Spin motor 27 rotations
-        for (int x = 0; x < (STEPS_PER_REV * 27); x++) {
+        for (int x = 0; x < (STEPS_PER_REV * 13); x++) {
           digitalWrite(stepPin2, HIGH);
           delayMicroseconds(1000);
           digitalWrite(stepPin2, LOW);
