@@ -5,10 +5,14 @@ This is an Arduino program that motorizes vertical blinds with an infra-red remo
 All 3D-printed parts were custom built for this project. 
 
 ## Table of Contents
+* System in Operation
 * Parts
 * 3D-Printed Designs
 * Photos
 * Advantages and Disadvantages of the Project
+
+## System in Operation
+https://user-images.githubusercontent.com/80595485/132399462-f11ad2df-ebfd-4f4d-aed6-1d1251b75512.MOV
 
 ## Parts
 * [Arduino UNO](https://www.amazon.ca/ARDUINO-A000066-Uno-DIP-1-5/dp/B008GRTSV6/ref=sr_1_5?dchild=1&keywords=arduino+uno&qid=1630951142&sr=8-5) x1
