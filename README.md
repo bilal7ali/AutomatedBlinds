@@ -57,7 +57,8 @@ https://user-images.githubusercontent.com/80595485/132400169-abfab27f-4311-4d0f-
 ![IMG_8684](https://user-images.githubusercontent.com/80595485/132398792-d179d658-1432-490a-a3c9-2bab7f1b8741.jpg)
 ![IMG_8685](https://user-images.githubusercontent.com/80595485/132398796-c0febd3a-1fde-42cd-851c-804db376a5d7.jpg)
 
-## Wiring
+### Wiring
 ![IMG_8605](https://user-images.githubusercontent.com/80595485/132397134-b8101e78-ea6e-4b4b-8fa7-751e9ff920e1.jpg)
 ![IMG_8602](https://user-images.githubusercontent.com/80595485/132397137-84f0e541-4347-4a2d-8e72-5678cb68cc2a.jpg)
 
+## Advantages and Disadvantages of the Project
