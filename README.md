@@ -12,7 +12,7 @@ All 3D-printed parts were custom built for this project.
 
 ## Parts
 * [Arduino UNO](https://www.amazon.ca/ARDUINO-A000066-Uno-DIP-1-5/dp/B008GRTSV6/ref=sr_1_5?dchild=1&keywords=arduino+uno&qid=1630951142&sr=8-5) x1
-* [NEMA 17 (17HS4401S)](https://www.amazon.ca/gp/product/B0787BQ4WH/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) x2
+* [NEMA 17 Stepper Motor (17HS4401S)](https://www.amazon.ca/gp/product/B0787BQ4WH/ref=ppx_yo_dt_b_asin_title_o03_s00?ie=UTF8&psc=1) x2
 * [A4988 Stepper Motor Driver](https://www.amazon.ca/gp/product/B06XJH3F3H/ref=ppx_yo_dt_b_asin_title_o03_s01?ie=UTF8&psc=1) x2
 * [100uF Capacitor](https://www.amazon.ca/gp/product/B00W1COWV8/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1) x2
 * [12v 7A 84W DC Power Supply](https://www.amazon.ca/gp/product/B08MCPVFSL/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1) x1
@@ -49,4 +49,11 @@ All 3D-printed parts were custom built for this project.
 ![IMG_8655](https://user-images.githubusercontent.com/80595485/132394369-9401459e-acd8-45aa-b4ef-648073d16e7f.jpg)
 ![IMG_8654](https://user-images.githubusercontent.com/80595485/132394373-5dd2f75e-7668-46de-89bd-09e898e6cf6d.jpg)
 
+### Housing
+![IMG_8684](https://user-images.githubusercontent.com/80595485/132398792-d179d658-1432-490a-a3c9-2bab7f1b8741.jpg)
+![IMG_8685](https://user-images.githubusercontent.com/80595485/132398796-c0febd3a-1fde-42cd-851c-804db376a5d7.jpg)
+
+## Wiring
+![IMG_8605](https://user-images.githubusercontent.com/80595485/132397134-b8101e78-ea6e-4b4b-8fa7-751e9ff920e1.jpg)
+![IMG_8602](https://user-images.githubusercontent.com/80595485/132397137-84f0e541-4347-4a2d-8e72-5678cb68cc2a.jpg)
 
