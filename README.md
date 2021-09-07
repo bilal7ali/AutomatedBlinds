@@ -1,6 +1,8 @@
 # Remote Controlled Blinds
 
-This is an Arduino program that motorizes vertical blinds with an infra-red remote. All 3D-printed parts were custom built for this project. 
+This is an Arduino program that motorizes vertical blinds with an infra-red remote. The blinds can be rotated open or closed as well as opened halfway horizontally. 
+
+All 3D-printed parts were custom built for this project. 
 
 ## Table of Contents
 * Parts
@@ -15,6 +17,7 @@ This is an Arduino program that motorizes vertical blinds with an infra-red remo
 * [100uF Capacitor](https://www.amazon.ca/gp/product/B00W1COWV8/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1) x2
 * [12v 7A 84W DC Power Supply](https://www.amazon.ca/gp/product/B08MCPVFSL/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1) x1
 * [3D printer Pulley Wheel Bearing](https://www.amazon.ca/gp/product/B07V73N4QD/ref=ppx_yo_dt_b_asin_title_o03_s01?ie=UTF8&psc=1) x1
+* [IR Remote and Receiver](https://www.amazon.ca/Baoblaze-Infrared-Wireless-Control-Material/dp/B07JY9KC62/ref=sr_1_5?dchild=1&keywords=arduino+ir+remote&qid=1631040220&sr=8-5) x1
 
 ## 3-D Printed Designs
 ### Ball Chain Sprocket
@@ -39,7 +42,7 @@ This is an Arduino program that motorizes vertical blinds with an infra-red remo
 ![String Component](https://user-images.githubusercontent.com/80595485/132254548-9f85d286-416e-4536-80fa-2e24d314fbea.jpg)
 ![String Component-Top](https://user-images.githubusercontent.com/80595485/132254557-666c3356-3ab3-438f-9375-4585c4c9af7c.jpg)
 
-### Mounting Brackets
+### NEMA 17 Mounting Brackets
 ![MountingBracket1](https://user-images.githubusercontent.com/80595485/132255457-48ab0fe1-3aab-4382-8d3c-eaacef5c2f10.PNG)
 ![MountingBracket2](https://user-images.githubusercontent.com/80595485/132255462-9b9828e7-6b2b-4b11-95fb-009f5e0a3b60.PNG)
 ![IMG_8682](https://user-images.githubusercontent.com/80595485/132394359-f2c3a420-f747-411c-b92a-ac21eadcd3b9.jpg)
