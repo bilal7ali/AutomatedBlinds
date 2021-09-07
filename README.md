@@ -1,6 +1,6 @@
 # Remote Controlled Blinds
 
-This is an Arduino program that motorizes vertical blinds with an infra-red remote. 
+This is an Arduino program that motorizes vertical blinds with an infra-red remote. All 3D-printed parts were custom built for this project. 
 
 ## Table of Contents
 * Parts
@@ -39,3 +39,6 @@ This is an Arduino program that motorizes vertical blinds with an infra-red remo
 ![String Component](https://user-images.githubusercontent.com/80595485/132254548-9f85d286-416e-4536-80fa-2e24d314fbea.jpg)
 ![String Component-Top](https://user-images.githubusercontent.com/80595485/132254557-666c3356-3ab3-438f-9375-4585c4c9af7c.jpg)
 
+### Mounting Brackets
+![MountingBracket1](https://user-images.githubusercontent.com/80595485/132255457-48ab0fe1-3aab-4382-8d3c-eaacef5c2f10.PNG)
+![MountingBracket2](https://user-images.githubusercontent.com/80595485/132255462-9b9828e7-6b2b-4b11-95fb-009f5e0a3b60.PNG)
