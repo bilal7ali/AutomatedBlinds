@@ -42,3 +42,8 @@ This is an Arduino program that motorizes vertical blinds with an infra-red remo
 ### Mounting Brackets
 ![MountingBracket1](https://user-images.githubusercontent.com/80595485/132255457-48ab0fe1-3aab-4382-8d3c-eaacef5c2f10.PNG)
 ![MountingBracket2](https://user-images.githubusercontent.com/80595485/132255462-9b9828e7-6b2b-4b11-95fb-009f5e0a3b60.PNG)
+![IMG_8682](https://user-images.githubusercontent.com/80595485/132394359-f2c3a420-f747-411c-b92a-ac21eadcd3b9.jpg)
+![IMG_8655](https://user-images.githubusercontent.com/80595485/132394369-9401459e-acd8-45aa-b4ef-648073d16e7f.jpg)
+![IMG_8654](https://user-images.githubusercontent.com/80595485/132394373-5dd2f75e-7668-46de-89bd-09e898e6cf6d.jpg)
+
+
