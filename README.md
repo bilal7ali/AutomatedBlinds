@@ -60,5 +60,3 @@ https://user-images.githubusercontent.com/80595485/132400169-abfab27f-4311-4d0f-
 ### Wiring
 ![IMG_8605](https://user-images.githubusercontent.com/80595485/132397134-b8101e78-ea6e-4b4b-8fa7-751e9ff920e1.jpg)
 ![IMG_8602](https://user-images.githubusercontent.com/80595485/132397137-84f0e541-4347-4a2d-8e72-5678cb68cc2a.jpg)
-
-## Advantages and Disadvantages of the Project
